@@ -1,0 +1,341 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+body
+{
+	font-family: arial,helvetica georgia;	
+	text-decoration: none;
+}
+
+.header
+{
+	height: 50px;
+	background: #444444;	
+}
+
+.container
+{
+	width: 940px;
+	margin: 0px auto;
+	
+}
+
+.headerLogo
+{
+		margin-right: 55px;
+		float: left;
+		padding-top: 10px;
+}
+
+.headerLogo a
+{
+	display: block;	
+}
+
+.header .container ul
+{
+	float: left;	
+}
+
+
+li
+{
+	float: left;
+	list-style: none;	
+}
+
+.headerMenu li a
+{
+	display: block;
+	padding-top: 10px;
+	text-decoration: none;
+	color: #aaaaaa;	
+	border-right: 2px solid #333333;
+	padding-right: 26px;
+	padding-left: 26px;
+	line-height: 30px;
+	padding-bottom: 10px;
+}
+
+.dividerRight
+{
+		border-left: 2px solid #333333;
+}
+
+.clear
+{
+	clear: both;
+	float: none;	
+}
+
+.banner
+{
+	height:485px;
+	background-image: url('../images/bluePattern.jpg');
+	background-repeat: repeat;
+		
+}
+
+.bannerContainerLeft
+{
+	width: 50%;
+
+	float: left;
+}
+
+.bannerContainerRight
+{	
+	float: left;
+	width: 50%;
+	margin-top: 50px;	
+	
+}
+
+h1
+{
+		
+		font-size: 48px;
+		font-weight: bold;
+		margin-top: 190px;
+		color:#FFFFFF;
+}
+
+h2
+{
+		
+		font-size: 33px;
+		margin-top: 12px;
+		color:#FFFFFF;
+}
+
+.buttons
+{
+	width: 420px;
+	margin-top: 46px;
+	height: 60px;
+	//background: #FFFFFF;	
+}
+
+.buttonWhite
+{
+	float: left;
+	width: 170px;
+	height:40px;
+  background-color: #f2f2f2;
+  color:#000000;
+  text-decoration:none;	
+  border-radius:3px;
+  font-size: 19px;
+  font-weight: bold;
+  display: block;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.buttonOrange
+{
+	float: left;
+	width: 170px;
+	height:40px;
+  background-color: #ff9900;
+  color:#FFFFFF;
+  text-decoration:none;	
+  border-radius:3px;
+  font-size: 19px;
+  font-weight: bold;
+  margin-left: 20px;
+  text-align: center;
+  padding-top: 10px;
+  display: block;
+}
+
+
+
+.content
+{
+	//height:505px;
+	/*background-color: red;	*/
+	margin-bottom: 110px;
+}
+
+.content .container h2
+{
+	text-align: center;	
+	font-size: 36px;
+	margin-top: 50px;
+	color: #333333;
+}
+
+/*.circleMargin
+{
+	margin-top: 70px;
+}*/
+
+ .drawCircle
+  {
+  		width: 140px;
+  		height: 140px;
+  		border-radius:100%;
+  		
+  		//float: left;
+  		//margin-left: 70px;
+  		margin-left: 30px;
+  		
+  		
+  }
+  
+  .content .container ul li 
+  {
+  		
+		width:200px;  	
+		margin-left: 30px;
+		margin-top: 70px;
+  	}
+  	
+   
+  .content .container #circleImage1
+  {
+  		background:#efefef url('../images/circle1img.png') no-repeat center center;	
+  }
+  	
+  	.content .container #circleImage2
+  {
+  		background:#efefef url('../images/circle2img.png') no-repeat center center;	
+  }
+
+.content .container #circleImage3
+  {
+  		background:#efefef url('../images/circle3img.png') no-repeat center center;	
+  }
+  
+  .content .container #circleImage4
+  {
+  		background:#efefef url('../images/circle4img.png') no-repeat center center;	
+  }  	
+
+.circleText
+{
+		font-size: 18px;
+		line-height: 22px;
+		color: #888888;
+		text-align: center;
+		margin-top: 30px;
+}
+
+ .footer
+  {
+  		height: 160px;
+  		background: #ececec;	
+  }
+  
+  .footerTop
+  {
+  		padding-top: 20px;
+  		height: 40px;	
+  }
+  
+  .footerHome 
+  {
+		font-size: 16px;
+		font-weight: bold;  
+		color: #444444;
+		margin-right: 20px;
+		line-height: 30px;
+		float: left;
+		display: block;
+		text-decoration: none;
+			
+  	}
+  	
+  	.footerText 
+  {
+		font-size: 16px;
+		font-weight: bold;  	
+		color: #FF8000;
+		float: left;
+		line-height: 30px;
+		margin-right: 20px;
+		text-decoration: none;
+	
+  	}
+  	
+  		.social
+  	{
+  			float: right;	
+  			
+  			
+  	}
+  	.social a
+  	{
+  		margin-right: 5px;	
+  	}
+  	
+  	.footerBottom
+  	{
+  		margin-top: 20px;	
+   }
+  	
+  	.footer .container ul
+  	{
+  		//margin-top: 25px;
+  		float: left;
+  			
+  	}
+  	
+ h5
+{
+	
+	font-size: 16px;
+	color: #aaaaaa;
+	float: left;
+	margin-right: 60px;
+	
+}
+
+.terms
+{
+	float: left;	
+}
+
+
+
+.footerBottom a
+{
+	padding-right: 10px;	
+	padding-left: 10px;
+	font-size: 16px;
+	color: #aaaaaa;
+	text-decoration: none;
+}
+
+.dividerRightFooter
+{
+	border-right: 2px solid #aaaaaa;	
+	float: left;
+}
+
+
+
+
+  
+  
+

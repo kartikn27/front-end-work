@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+	<head>
+		<title>Assignment 6</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+	
+	<body>
+		<div class="header">
+			<div class="container">
+				<a href="#" class="Logo"></a>
+				<ul class="headerNav">
+					<li><a href="#">Things to do</a></li>
+					<li><a href="#">Places to visit</a></li>
+					<li><a href="#">Tickets</a></li>
+					<li class="clear"></li>
+				</ul>
+				
+					<input type="text" class="searchBar">
+					<ul class="social">
+						<li><a href="#" class="facebook"></a></li>
+						<li><a href="#" class="twitter"></a></li>
+						<li><a href="#" class="pinterest"></a></li>
+						<li><a href="#" class="google"></a></li> 
+						<li class="clear"></li>
+					</ul>
+					<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="banner">
+			<div class="container">
+				<h2>Grand Weddings...</h2>	
+				<p>Our Wedding Support Team makes your special day perfect in every way imaginable...</p>
+			</div>
+		</div>
+		
+		<div class="bannerNav">
+			<div class="container">		
+				<ul class="bannerButtons">
+					<li><a href="" class="arrow"> Films & Fun</a></li>
+					<li><a href="" class="arrow">Weddings</a></li>
+					<li><a href="" class="arrow" >Corporates</a></li>
+					<li><a href="" class="arrow">Sahas</a></li>
+					<li class="clear"></li>
+				</ul>
+			</div>
+		</div>
+		
+		<div class="grids">
+			<div class="container">
+				<h2> What's Happening</h2>
+				<ul class="news">
+					<li class="newsInfo">
+						<div class="imageWrapper">
+							<a href="#" ><img src="images/picture1.jpg" alt="" ></a>
+						</div>
+						<div class="newsContent"> 
+							<h5> 16 Nov 2016</h5>
+							<h3><a href="" class="newsTitle" > Fundoofest 2013</a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, ipsum...</p>
+						</div>
+					</li>
+					
+					<li class="newsInfo">
+						<div class="imageWrapper"><a href="#" ><img src="images/picture2.jpg" alt="" ></a></div>
+						<div class="newsContent"> 
+							<h5> 16 Nov 2016</h5>
+							<h3><a href="" class="newsTitle" > Google Event 2013</a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, ipsum...</p>
+						</div>
+					</li>
+					
+					<li class="newsInfo">
+						<div class="imageWrapper"><a href="#" ><img src="images/picture3.jpg" alt="" ></a></div>
+						<div class="newsContent"> 
+							<h5> 16 Nov 2016</h5>
+							<h3><a href="" class="newsTitle" > Next Romantic Destination </a></h3>
+							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer imperdiet, ipsum...</p>
+						</div>
+					</li>
+					
+					<li class="clear"></li> 
+					
+				</ul>
+			</div>		
+		</div>
+		
+		<div class="footer">
+			<div class="container">
+				
+				<div class="footerList">
+					<h3>THINGS TO DO</h3>
+					<ul class="footerNav">
+						<li><a href="#">Day Tours</a></li>
+						<li><a href="#">Eureka</a></li>
+						<li><a href="#">Ramoji Movie Magic</a></li>
+						<li><a href="#">Fundustan</a></li>
+						<li><a href="#">Backstage Tours</a></li>
+					</ul>
+					<ul class="footerNav2">
+						<li><a href="#">Restaurants</a></li>
+						<li><a href="#">Shopping</a></li>
+						<li><a href="#">Activities</a></li>
+					</ul>
+				</div>
+				
+				<div class="footerList">
+					<h3>PLACES TO STAY</h3>
+					<ul class="footerNav">
+						<li><a href="#">Hotel Tara</a></li>
+						<li><a href="#">Hotel Sitara</a></li>
+						<li><a href="#">Hotel Sahara</a></li>
+						<li><a href="#">Hotel Dolfin</a></li>
+					</ul>						
+					<ul class="footerNav2">
+						<li><a href="#">Special Offers</a></li>
+						<li><a href="#">Package Deals</a></li>
+					</ul>
+				</div>
+				
+				<div class="footerList">
+					<h3>CORPORATES</h3>
+					<ul class="footerNav">
+						<li><a href="#">Film Makers</a></li>
+						<li><a href="#">Corporate Events</a></li>
+						<li><a href="#">Events & Coprporate Events</a></li>
+						<li><a href="#">Banquet And Catering</a></li>
+					</ul>						
+					<ul class="footerNav2">
+						<li><a href="#">Other Services</a></li>
+						<li><a href="#">Accomodation</a></li>
+						<li><a href="#">Special Offers</a></li>
+					</ul>
+				</div>
+				
+				<div class="footerList">
+					<h3>WEDDINGS</h3>
+					<ul class="footerNav">
+						<li><a href="#">Venues</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Packages</a></li>
+						<li><a href="#">Honeymoon</a></li>
+						<li><a href="#">Themes</a></li>
+					</ul>
+				</div>
+				
+				<div class="footerList">
+					<h3>BOOKINGS</h3>
+					<ul class="footerNav">
+						<li><a href="#">Special Offers</a></li>
+						<li><a href="#">Family Packages</a></li>
+						<li><a href="#">Wedding Packages</a></li>
+						<li><a href="#">Corporate Package</a></li>
+						<li><a href="#">Buy Tickets</a></li>
+					</ul>
+				</div>
+				<div class="clear"></div>
+				
+			</div>
+			<div class="containerFooter">
+				<ul class="footerNavSmall">
+					<li> <a href="#" >HOME</a></li>
+					<li> <a href="#" >AWARDS</a></li>						
+					<li> <a href="#" >CAREERS</a></li>
+					<li> <a href="#" >CONTACT US</a></li>
+					<li> <a href="#" >FEEDBACK</a></li>
+					<li> <a href="#" >SUBSCRIBE TO NEWSLETTERS</a></li>
+				</ul>
+				<span class="copyright">&copy; 2013. Ramoji Filmcity. All rights reserved.</span>
+			</div>
+		</div>
+	</body>
+</html>

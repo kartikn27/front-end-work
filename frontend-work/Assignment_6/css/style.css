@@ -1,0 +1,392 @@
+html, body, div, span, 
+h1, h2, h3, h4, h5, h6, p, pre,
+a, img,center,ol, ul, li,form,
+footer, header,nav 
+{
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+@font-face 
+{
+	font-family:"Oxygen";
+	src:url("../fonts/Oxygen.eot?") format("eot"),
+	url("../fonts/Oxygen.woff") format("woff"),
+	url("../fonts/Oxygen.ttf") format("truetype"),
+	url("../fonts/Oxygen.svg#Oxygen") format("svg");
+	font-weight:normal;font-style:normal;
+}
+
+@font-face 
+{ 
+	font-family: "Minion Pro";
+	src: url("../fonts/minion_pro.eot?") format("eot"), 
+	url("../fonts/minion_pro.svg#Minion Pro") format('svg'), 
+	url('..fonts/minion_pro.woff') format('woff'), 
+	url('../fonts/minion_pro.ttf') format('truetype'); 
+	font-weight: normal; font-style: normal;
+}
+
+body
+{
+	font-family:"Oxygen",arial,helvetica,georgia;	
+}
+
+.container
+{
+	width: 940px;
+	margin: 0 auto;
+
+}
+
+.clear
+{
+	clear: both;
+	float: none;	
+}
+
+
+.Logo
+{
+	float: left;
+	background:url('../images/ramojiLogo.png') no-repeat;	
+	height: 50px;
+	width: 120px;
+	display: block;
+	margin: 5px 65px 0 0;
+	
+}
+.headerNav
+{
+	font-size: 16px;	
+	font-weight: bold;
+	margin-left: -15px;
+	float: left;
+}
+
+.headerNav li
+{
+	float: left;	
+	list-style: none;
+}
+
+.headerNav a
+{
+	text-decoration: none;	
+	padding: 20px 15px 20px 15px;
+	display: block;
+	color: #000000;
+	}
+
+.searchBar
+{
+	margin: 20px 0 0 50px;
+	float: left;
+	border-right: 1px solid #888888;
+	border-left: 1px solid #888888;
+	border-top: 1px solid #888888;
+	border-bottom: 1px solid #888888;
+	border-radius: 3px;
+	background:url('../images/searchImg.png') no-repeat 97%;
+}
+
+.social
+{
+	float: right;	
+}
+
+.social li
+{
+	float: left;	
+	list-style: none;
+}
+
+.social a
+{
+	display: block;
+	width: 24px;
+	height: 24px;	
+	border-radius:50%;
+	margin-top: 20px;
+	
+}
+
+
+.facebook
+{	
+	background: #000000 url('../images/facebook.png') no-repeat center;	
+	margin-left: 5px;
+}
+
+.twitter
+{	
+	background: #000000 url('../images/twitter.png') no-repeat center;	
+	margin-left: 5px;
+}
+
+.pinterest
+{	
+	
+	background: #000000 url('../images/pinterset.png') no-repeat center;	
+	margin-left: 5px;
+}
+
+.google
+{	
+	background: #000000 url('../images/google.png') no-repeat center;	
+	margin-left: 5px;
+}
+
+.banner
+{
+	min-height: 545px;
+	background: #000000 url('../images/mainBanner.jpg') no-repeat center;	
+}
+
+.banner h2
+{
+	color: #FFFFFF;
+	font-size: 44px;
+	font-weight: bold;	
+	padding-top: 450px;
+}
+
+.banner p
+{
+	color: #FFFFFF;
+	font-size: 22px;
+	font-family: "Minion Pro";
+}
+
+.bannerNav
+{
+	background: #ecab1f;	
+	padding: 20px 0 20px 0;
+}
+
+.bannerNav li
+{
+	list-style: none;	
+	float: left;
+}
+
+.bannerNav a
+{
+	width: 210px;
+	height: 40px;
+	display: block;	
+	border-radius: 5px;
+	margin-right: 15px;
+	padding: 15px 0 0 10px;
+	font-size: 22px;
+	text-decoration: none;
+	
+}
+
+.bannerNav li.clear
+{
+	clear: both;
+	float: none;	
+}
+
+.arrow
+{
+		background: #FFFFFF url('../images/arrow.png') no-repeat;
+		background-position: 180px;	
+}
+
+.grids h2
+{
+	font-size: 40px;
+	font-weight: bold;
+	color: #888888;
+	padding: 65px 0 25px 0;
+}
+
+.news
+{
+	margin-right: -20px;
+}
+.newsInfo
+{
+	width: 300px;	
+	float: left;
+	margin-right: 20px;
+	background: #4466ff;
+	list-style: none;
+}
+
+.imageWrapper
+{
+	min-height: 200px;
+	max-width: 100%;	
+	overflow: hidden;
+}
+
+.imageWrapper a
+{
+	display: block;	
+}
+.newsContent
+{
+	color: #FFFFFF;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.newsContent h5
+{
+	padding: 15px 0 0 15px;
+	font-size: 11px;
+}
+
+.newsContent h3
+{
+	padding: 15px 0 0 15px;
+	font-size: 18px;
+}
+
+
+.newsContent p
+{
+	padding: 15px 0 0 15px;
+	font-size: 14px;
+	font-family: "Minion Pro";
+}
+
+.newsTitle
+{
+	text-decoration: none;	
+	color: #FFFFFF;
+}
+
+.grids li.clear
+{
+	clear: both;
+	float: none;	
+	list-style: none;
+}
+
+.footer
+{
+	margin-top: 70px;
+	background: #f1f1f1;
+	padding-bottom: 50px;
+}
+
+.footerNav
+{
+	padding-top: 15px;
+}
+
+
+.footerNav2
+{
+	padding-top: 40px;
+}
+
+
+.footerNav h3
+{
+	font-size: 14px;
+	color: #939393;
+	padding-bottom: 15px;
+}
+
+.footerNav li
+{
+	list-style: none;
+}
+
+.footerNav2 li
+{
+	list-style: none;
+}
+
+.footerNav a
+{
+	font-family: "Minion Pro";
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+}
+
+.footerNav2 a
+{
+	font-weight: bold;
+	font-family: "Minion Pro";
+	display: block;
+	text-decoration: none;
+	font-size: 14px;
+	color: #000000;
+	line-height: 20px;
+	
+}
+
+.footerList
+{
+	float: left;	
+	margin-right: 60px;
+	padding-top: 30px;
+}
+
+.footer .container
+{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #dadada;
+}
+
+.containerFooter
+{
+	width: 940px;
+	margin: 0 auto;
+}
+
+.footerNavSmall
+{
+	padding-top: 30px;	
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+}
+
+.footerNavSmall li
+{
+	list-style: none;	
+	display: inline;
+}
+
+.footerNavSmall a
+{
+	text-decoration: none;
+	border-left: 1px solid #aaaaaa;
+	padding: 0 10px 0 10px;
+	color: #000000;
+}
+
+.footerNavSmall li:first-child a
+{
+	border-left: none;	
+}
+
+.footerNavSmall li.clear
+{
+	clear: both;
+	float: none;	
+}
+
+.copyright
+{
+	font-family: "Minion Pro";
+	font-size: 14px;
+	color: #aaaaaa;
+	text-align: center;
+	padding-top: 15px;
+	display: block;
+}

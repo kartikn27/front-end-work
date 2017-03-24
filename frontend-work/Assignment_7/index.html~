@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+	<head>
+		<title>Needle Point</title>
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+		<link rel="icon" href="http://www.needlepoint.com/skin/frontend/needlepoint/needlepoint/favicon.ico" type="image/x-icon">
+	</head>
+	</html>
+	
+	<body>
+		<div class="header">
+			<div class="container">
+				<a href="#" class="logo" title="Needle Point"></a>
+				<ul class="headerNav">
+					<li><a href="" >Shop</a></li>
+					<li><a href="" >Gallery</a></li>
+					<li><a href="" >Connect</a></li>
+					<li class="clear"></li>
+				</ul>
+				<div class="clear"></div>
+			</div>
+		</div>
+		
+		<div class="banner">
+			<div class="container">
+				<div class="bannerContent">
+					<h1>A pastime that lasts a lifetime.</h1>
+					<a href="#" class="bannerButton bannerButtonFloat" >Shop our store</a>
+					<div class="clear"></div>
+				</div>
+			</div>	
+		</div>
+		
+		
+		<div class="shopGrid">
+			<div class="container">
+				<div class="rectangle1">
+					<div class="rectangleText1">
+						<h3>stay inspired</h3>
+						<p>Subscribe to our needlepoint 							catalog and discover new 							products, ideas and inspiration.
+						</p>
+						<form>
+							<input type="text" placeholder="Enter your email address" class="inputEmail">			
+							<input type="submit" value="Sign up" class="submitEmail"> 			
+						</form>
+					</div>
+					<div class="rectangleImage">
+						<img src="images/img1.jpg" alt="needlepoint.com" >					
+					</div>
+				</div>
+				<div class="rectangle1 rectangle1Margin">
+					<div class="rectangleText1">
+						<h3>shop needlepoint kits</h3>
+						<p>Bright and fun kits starting at 							$42.99.  New kits listed weekly.
+						</p>
+						<a href="#" class="bannerButton rectangleButton" title="shop">Shop our store</a>
+					</div>
+					<div class="rectangleImage">
+						<img src="images/img2.jpg" alt="">					
+					</div>
+				</div>				
+				
+				<div class="clear"></div>
+						
+			</div>		
+		</div>
+		
+		
+		<div class="grids">
+			<div class="container">
+				<ul class="gridContent">
+					<li>
+						<h2>gift certificate</h2>	
+						<div class="imageWrapper"> 
+								<a href="" class="imageLink"><img src="images/gridImg1.jpg" alt="" ></a>
+						</div>		
+						<p>Give the gift of needlepoint to someone you truly love. </p>	
+						<a href="" >but gift certificates</a>
+					</li>
+					
+					<li>
+						<h2>our current trunk show</h2>	
+						<div class="imageWrapper"> 
+								<a href=""  class="imageLink"><img src="images/gridImg2.jpg" alt="" ></a>
+						</div>		
+						<p>We carry the one of the largest in stock varaites of Silk and Ivory colors.</p>	
+					<a href="" >shop our current trunk show now</a>		
+					</li>
+					
+					<li>
+						<h2>event, classes and calender</h2>	
+						<div class="imageWrapper"> 
+								<a href=""  class="imageLink"><img src="images/gridImg3.jpg" alt="" ></a>
+						</div>		
+						<p>Enhance your skills and learn new techniques in one of our classes.</p>	
+						<a href="" >now enrolling</a>		
+					</li>
+					
+					<li class="clear"></li>
+				</ul>
+				
+			</div>		
+		</div>
+		
+		<div class="footer">
+			<div class="container">
+				<ul class="footerNav">
+					<li><a href="#" >About</a></li>
+					<li><a href="#" >Careers</a></li>
+					<li><a href="#" >Policies</a></li>
+					<li><a href="#" >Catalog Request</a></li>
+					<li><a href="#" >Browse Catalog</a></li>
+					<li><a href="#" >Contact</a></li>
+				</ul>	
+				<ul class="social">
+					<li><a href="" class="facebook"></a></li>
+					<li><a href="" class="twitter"></a></li>
+					<li><a href="" class="pinterest"></a></li>
+					<li><a href="" class="google"></a></li>
+				</ul>	
+				<div class="clear"></div>	
+				<div class="copyright">&copy; Needlepoint. All Rights Reserved</div>				
+				<ul class="footerNavSmall">
+					<li><a href="" >Terms of service</a></li>
+					<li><a href="" >Privacy</a></li>
+					<li><a href="" >Sitemap</a></li>
+				</ul>
+					<div class="clear"></div>	
+			</div>
+		</div>
+	</body>
